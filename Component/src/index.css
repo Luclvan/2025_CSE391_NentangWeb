@@ -1,0 +1,50 @@
+/* index.css */
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body mặc định */
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  color: #2c3e50;
+  min-height: 100vh;
+  line-height: 1.6;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Scrollbar mượt (nếu hỗ trợ) */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Link mặc định */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Nút mặc định */
+button {
+  font-family: inherit;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background-color: #005fa3;
+}
