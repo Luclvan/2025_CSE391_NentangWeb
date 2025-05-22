@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #1e1e1e;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* căn giữa nội dung theo chiều ngang + dọc */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 900px;
+  padding: 20px;
+  width: 90vw; /* responsive độ rộng */
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center; /* căn giữa tiêu đề */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cột */
+  gap: 20px;
+}
+
+.card {
+  background: #404995;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+  /* hiệu ứng thu phóng khi hover */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05); /* phóng to 5% khi hover */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
