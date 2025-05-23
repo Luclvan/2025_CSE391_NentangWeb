@@ -1,12 +1,11 @@
-/* index.css */
-/* Reset CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body mặc định */
+
 body {
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #eef2f3, #ffffff);
@@ -16,7 +15,7 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* Scrollbar mượt (nếu hỗ trợ) */
+
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -34,7 +33,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Nút mặc định */
+
 button {
   font-family: inherit;
   padding: 8px 16px;
