@@ -9,13 +9,18 @@ class CounterClass extends Component {
   increment = () => {
     this.setState({ count: this.state.count + 1 });
   };
-
+  decrement = () => {
+    this.setState({ count: this.state.count - 1 });
+  };
   render() {
     return (
-      <div>
+      <div className="counter">
         <h2>Counter (Class)</h2>
-        <p>Count: {this.state.count}</p>
-        <button onClick={this.increment}>Tăng</button>
+        <div className="controls">
+          <button onClick={this.decrement}>-</button>
+          <p>{this.state.count}</p>
+          <button onClick={this.increment}>+</button>
+        </div>
       </div>
     );
   }

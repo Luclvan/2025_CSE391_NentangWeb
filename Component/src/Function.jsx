@@ -4,12 +4,16 @@ function CounterFunction() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <h2>Counter (Function)</h2>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Tăng</button>
-    </div>
+    <div className="counter">
+        <h2>Counter (Class)</h2>
+        <div className="controls">
+          <button onClick={() => setCount(count + 1)}>-</button>
+          <p>{count}</p>
+          <button onClick={() => setCount(count - 1)}>+</button>
+        </div>
+      </div>
   );
 }
 
 export default CounterFunction;
+

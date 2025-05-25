@@ -1,15 +1,19 @@
 
 * {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   box-sizing: border-box;
 }
 
 
 body {
+  display: flex;
+  justify-self: center;
+  /* align-items: center; */
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #eef2f3, #ffffff);
   color: #2c3e50;
+  max-width: 1200px;
   min-height: 100vh;
   line-height: 1.6;
   transition: background 0.3s ease-in-out;
@@ -46,4 +50,25 @@ button {
 }
 button:hover {
   background-color: #005fa3;
+}
+
+.counter {
+  background: #f7f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.controls p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
