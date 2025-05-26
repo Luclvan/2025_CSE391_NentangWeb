@@ -7,9 +7,9 @@ function CounterFunction() {
     <div className="counter">
         <h2>Counter (Class)</h2>
         <div className="controls">
-          <button onClick={() => setCount(count + 1)}>-</button>
+          <button onClick={() => setCount(count - 1)}>-</button>
           <p>{count}</p>
-          <button onClick={() => setCount(count - 1)}>+</button>
+          <button onClick={() => setCount(count + 1)}>+</button>
         </div>
       </div>
   );
