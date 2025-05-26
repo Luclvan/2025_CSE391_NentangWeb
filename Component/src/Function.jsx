@@ -7,13 +7,13 @@ function CounterFunction() {
 
   return (
     <div className="counter">
-        <h2>Counter (Function)</h2>
-        <div className="controls">
-          <button onClick={() => setCount(count - 1)}>-</button>
-          <p>{count}</p>
-          <button onClick={() => setCount(count + 1)}>+</button>
-        </div>
+      <h2>Counter (Function)</h2>
+      <div className="controls">
+        <button onClick={() => setCount(count - 1)}>-</button>
+        <p>{count}</p>
+        <button onClick={() => setCount(count + 1)}>+</button>
       </div>
+    </div>
   );
   //Đơn giản, dễ đọc, gọn gàng hơn.
 }

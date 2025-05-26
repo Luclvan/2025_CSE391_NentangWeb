@@ -24,7 +24,7 @@ class CounterClass extends Component {
         <div className="controls">
           <button onClick={this.decrement}>-</button>
           <p>{this.state.count}</p>
-          <button onClick={this.increment}>+</button> 
+          <button onClick={this.increment}>+</button>
         </div>
       </div>
       //Dùng this để tham chiếu các hàm trong class.

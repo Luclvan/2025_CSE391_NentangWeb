@@ -10,9 +10,8 @@ function App() {
         <ProfileCard
           name="Đỗ Đình An"
           avatar="https://byvn.net/pLJD"
-          text="Trưởng nhóm"
+          text="Thành viên"
           link="https://www.facebook.com/dinhan1205"
-
         />
         <ProfileCard
           name="Nguyễn Đăng Đại"
@@ -26,7 +25,7 @@ function App() {
           text="Thành viên"
           link="https://www.facebook.com/luc.levan.75286100"
         />
-        
+
         <ProfileCard
           name="Võ Mạnh Thắng"
           avatar="https://byvn.net/YG4s"

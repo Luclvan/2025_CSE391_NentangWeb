@@ -9,9 +9,8 @@
 body {
   display: flex;
   justify-self: center;
-  /* align-items: center; */
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #eef2f3, #ffffff);
+  background: #565a5a;
   color: #2c3e50;
   max-width: 1200px;
   min-height: 100vh;
