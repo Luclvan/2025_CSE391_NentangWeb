@@ -6,12 +6,17 @@ class CounterClass extends Component {
     this.state = { count: 0 }; //Sử dụng this.state để lưu trạng thái count.
   } //Dùng constructor để khởi tạo state.
 
+  // Hàm tăng count
   increment = () => {
     this.setState({ count: this.state.count + 1 }); //Gọi this.setState(...) để cập nhật state và render lại.
   };
+
+  // Hàm giảm count
   decrement = () => {
     this.setState({ count: this.state.count - 1 }); //Gọi this.setState(...) để cập nhật state và render lại.
   };
+
+
   render() {
     return (
       <div className="counter">
@@ -22,7 +27,7 @@ class CounterClass extends Component {
           <button onClick={this.increment}>+</button> 
         </div>
       </div>
-      //Dùng this để tham chiếu các hàm và biến trong class.
+      //Dùng this để tham chiếu các hàm trong class.
     );
   }
 }
